@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<WithStyles(ForwardRef(CardActionArea))
+  className="makeStyles-actionArea-3"
+>
+  <WithStyles(ForwardRef(Card))
+    className="makeStyles-card-4 makeStyles-card-8"
+  >
+    <WithStyles(ForwardRef(CardMedia))
+      classes={
+        Object {
+          "root": "makeStyles-root-1 makeStyles-root-2",
+        }
+      }
+      image="//:0"
+    />
+    <WithStyles(ForwardRef(CardContent))
+      className="makeStyles-content-5 makeStyles-content-9"
+    >
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-title-6"
+        variant="h3"
+      />
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-subtitle-7"
+      />
+    </WithStyles(ForwardRef(CardContent))>
+  </WithStyles(ForwardRef(Card))>
+</WithStyles(ForwardRef(CardActionArea))>
+`;

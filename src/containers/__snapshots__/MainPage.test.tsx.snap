@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div>
+  <Memo(Header) />
+  <SearchBox
+    searchChange={[MockFunction]}
+  />
+  <Scroll>
+    <ErrorBoundary>
+      <CardList
+        pops={Array []}
+      />
+    </ErrorBoundary>
+  </Scroll>
+</div>
+`;

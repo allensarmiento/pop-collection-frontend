@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<WithStyles(ForwardRef(Grid))
+  classes={
+    Object {
+      "root": "makeStyles-root-1",
+    }
+  }
+  container={true}
+  spacing={4}
+  wrap="wrap"
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="0"
+  >
+    <PopCard
+      color="#fff"
+      image=""
+      subtitle="Category 1"
+      title="Name 1"
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
