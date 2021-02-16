@@ -17,7 +17,7 @@ const useStyles = makeStyles(() => {
       },
     },
     card: ({ color }) => ({
-      minWidth: 256,
+      width: 256,
       borderRadius: 16,
       boxShadow: 'none',
       '&:hover': {
@@ -37,6 +37,9 @@ const useStyles = makeStyles(() => {
       fontFamily: 'Keania One',
       fontSize: '2rem',
       color: '#fff',
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
       textTransform: 'uppercase',
     },
     subtitle: {
@@ -46,6 +49,9 @@ const useStyles = makeStyles(() => {
       marginTop: '2rem',
       fontWeight: 500,
       fontSize: 14,
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
     },
   };
 });
